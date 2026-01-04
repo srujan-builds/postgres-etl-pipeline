@@ -1,9 +1,0 @@
-venv/
-.env
-
-data_ingestion/.dockerignore
-data_ingestion/Dockerfile
-data_ingestion/pipeline.ipynb
-
-db/.dockerignore
-db/Dockerfile
