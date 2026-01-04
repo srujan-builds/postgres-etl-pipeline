@@ -70,3 +70,4 @@ if __name__ == "__main__":
     raw_data = get_data()
     transformed_data = transform(raw_data)
     push_data_to_postgres(transformed_data)
+    print("test")
