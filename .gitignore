@@ -1,0 +1,10 @@
+venv/
+.env
+
+data_ingestion_python/.dockerignore
+data_ingestion_python/pipeline.ipynb
+
+data_ingestion_dlt/.dlt/secrets.toml
+
+db/.dockerignore
+db/Dockerfile
