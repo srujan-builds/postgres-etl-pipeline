@@ -18,9 +18,13 @@ def main():
         dataset_name="demodb"
     )
 
-    load_info = pipeline.run(sample_data)
-    
-    print(load_info)
+    try:
+        print("Startin the pipeline run")
+        load_info = pipeline.run(sample_data)
+        print("Pipeline run completed successfully")
+        print(load_info)
+    except Exception as e:
+        print(f"Pipeline Failure: {e}")
 
 if __name__ == "__main__":
     main()
